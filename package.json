@@ -4,10 +4,12 @@
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
-    "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "devextreme": "^22.2.4",
+    "devextreme-react": "^22.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -34,5 +36,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "customize-cra": "^1.0.0",
+    "devextreme-themebuilder": "^22.2.4",
+    "jest": "^27.5.1",
+    "react-app-rewired": "^2.2.1",
+    "react-test-renderer": "^18.2.0",
+    "source-map-loader": "^4.0.1"
   }
 }
